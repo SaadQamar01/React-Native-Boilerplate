@@ -1,0 +1,4 @@
+#Fri Sep 13 02:27:33 PKT 2019
+base.0=/home/saad/iomechs/projects/ICPlan/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

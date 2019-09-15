@@ -1,0 +1,56 @@
+{
+  "name": "ICPlan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "clean-android": "cd android/ && ./gradlew clean",
+    "adb-reverse": "adb reverse tcp:8081 tcp:8081",
+    "adb-shell": "adb shell input keyevent 82",
+    "killall-node": "killall node",
+    "restart": "react-native start",
+    "build:android:release": "cd ./android && ./gradlew assembleRelease && cd ..",
+    "preversion": "./npm-version/pre-version.sh",
+    "version": "./npm-version/version-ios.sh",
+    "postversion": "./npm-version/post-version.sh"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.7",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-modalbox": "^1.7.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.2",
+    "react-navigation-drawer": "^2.1.2",
+    "react-navigation-stack": "^1.7.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-modal": "^3.0.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
