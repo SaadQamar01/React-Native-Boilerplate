@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/saad/iomechs/projects/ICPlan/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
+            "outputFile": "/home/saad/iomechs/projects/React-Native-Boilerplate/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "/home/saad/.gradle/caches/transforms-2/files-2.1/9a161774b03d0c425518e2ffbba22e8a/res/values-bs/values-bs.xml",

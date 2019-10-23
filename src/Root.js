@@ -5,7 +5,6 @@ import {persistStore} from 'redux-persist';
 import {PersistGate} from 'redux-persist/es/integration/react';
 import store from './store/index';
 import {YellowBox} from 'react-native';
-import {StyleProvider} from 'native-base';
 
 let persistor = persistStore(store);
 YellowBox.ignoreWarnings([
